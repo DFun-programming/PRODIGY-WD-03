@@ -16,6 +16,9 @@ body{
     font-family:  "Comic Sans MS", cursive, sans-serif;
     font-size:  70px;
     cursor: pointer;
+    color: #b0413e;
+    background-color: #ffffc7;
+    
   }
   
   table {
@@ -61,7 +64,7 @@ body{
     display: none;
     width: 220px;
     top: 110px;
-    background-color: rgba(205, 133, 63, 0.8);
+    background-color: rgba(230, 209, 187, 0.8);
     position: absolute;
     left: 50%;
     margin-left: -110px;
@@ -69,7 +72,7 @@ body{
     padding-bottom: 50px;
     text-align: center;
     border-radius: 5px;
-    color: yellow;
+    color: rgb(0, 0, 0);
     font-size: 2em; 
   }
   
@@ -77,6 +80,11 @@ body{
     font-family: "Comic Sans MS", cursive, sans-serif;
     font-size:  50px;
     width: 70px;
+    border-radius: 50%;
+    background-color: rgba(203, 255, 166, 0.8);
+  }
+  .btn{
+    display: block;
   }
   
   .selectSym  button:first-of-type {

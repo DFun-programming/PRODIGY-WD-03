@@ -1,4 +1,5 @@
-const selectAgainst=(sel)=>{
+const selectAgainst=(sel)=>
+{
     if(sel==='ai')
      {
          window.location.href='withAi.html'
